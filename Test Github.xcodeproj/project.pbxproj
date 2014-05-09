@@ -21,6 +21,7 @@
 		6FA3228A191D6DC600082C4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA3226C191D6DC600082C4F /* UIKit.framework */; };
 		6FA32292191D6DC600082C4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FA32290191D6DC600082C4F /* InfoPlist.strings */; };
 		6FA32294191D6DC600082C4F /* Test_GithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA32293191D6DC600082C4F /* Test_GithubTests.m */; };
+		6FA3229F191D702D00082C4F /* JCTestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3229E191D702D00082C4F /* JCTestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6FA3228F191D6DC600082C4F /* Test GithubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test GithubTests-Info.plist"; sourceTree = "<group>"; };
 		6FA32291191D6DC600082C4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FA32293191D6DC600082C4F /* Test_GithubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_GithubTests.m; sourceTree = "<group>"; };
+		6FA3229D191D702D00082C4F /* JCTestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTestGit.h; sourceTree = "<group>"; };
+		6FA3229E191D702D00082C4F /* JCTestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6FA3227E191D6DC600082C4F /* JCViewController.m */,
 				6FA32280191D6DC600082C4F /* Images.xcassets */,
 				6FA3226F191D6DC600082C4F /* Supporting Files */,
+				6FA3229D191D702D00082C4F /* JCTestGit.h */,
+				6FA3229E191D702D00082C4F /* JCTestGit.m */,
 			);
 			path = "Test Github";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				6FA32275191D6DC600082C4F /* main.m in Sources */,
 				6FA3227F191D6DC600082C4F /* JCViewController.m in Sources */,
 				6FA32279191D6DC600082C4F /* JCAppDelegate.m in Sources */,
+				6FA3229F191D702D00082C4F /* JCTestGit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
